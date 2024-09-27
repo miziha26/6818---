@@ -12,6 +12,7 @@ int music_i=1;//音乐编号
 
 int main()  
 {   
+    printf("hello world\n");
     //打开屏幕文件
     int lcd_fd = open("/dev/fb0", O_RDWR);
     if(lcd_fd == -1)
